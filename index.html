@@ -16,19 +16,19 @@
 
     <form action="Authorization.php" method="post">
 
-        <input type="text" placeholder = "First Name" id="fname" name="fname">
+        <input type="text" placeholder = "First Name" id="fname" name="fname" required>
 
-        <input type="text" placeholder = "Last Name" id="lname" name="lname"><br>
+        <input type="text" placeholder = "Last Name" id="lname" name="lname" required><br>
         
-        <input type="tel" placeholder = "Mobile No." id="Mobile" name="Mobile"><br>
+        <input type="tel" placeholder = "Mobile No." id="Mobile" name="Mobile" required><br>
 
-        <input type="text" placeholder = "Email Address" id="Email" name="Email"><br>
+        <input type="text" placeholder = "Email Address" id="Email" name="Email" required><br>
 
-        <input type="password" placeholder = "Password" id="Password" name="Password">
+        <input type="password" placeholder = "Password" id="Password" name="Password" minlength="8" required>
 
-        <input type="password" placeholder = "Confirm_Password" id="Confirm_Password" name="Confirm_Password"><br><br>
+        <input type="password" placeholder = "Confirm_Password" id="Confirm_Password" name="Confirm_Password" minlength="8" required><br><br>
 
-        <input type="checkbox" id="I Agree" name="I Agree" value="I_Agree">
+        <input type="checkbox" id="I Agree" name="I Agree" value="I_Agree" required>
 
         <label for="I_Agree"> <b>I Agree</b></label><br>
 
