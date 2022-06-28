@@ -2,6 +2,8 @@ Home Page that has a sign-up form
 
 Index.html
   - sign up page
+  - form with all needed fields
+  - 2 submit buttons send data as a POST to authorization.php
 
 styles.css
   - all styling for index.html there
