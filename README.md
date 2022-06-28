@@ -1,4 +1,4 @@
-Home Page that has a sign-up form
+HTML signup page with CSS styling
 
 Index.html
   - sign up page
