@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+}
+input {
+    width: 16em;
+    height: 2em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom:0.3125em;
+}
+input:hover{
+    outline-color:#00BFFF;
+}
+input:active{
+    outline-color:#00BFFF;
+}
+input[id=Mobile]{
+    width: 33.4em;
+}
+input[id=Email]{
+    width: 33.4em;
+}
+span {
+    color: GhostWhite;
+    background-color: CornflowerBlue;
+    display: inline-block;
+    border-radius: .25em;
+    outline: none;
+}
+a:link {
+    text-decoration: none;
+    color: RoyalBlue;
+}
+a:visited {
+    text-decoration: none;
+    color: RoyalBlue;
+}
+a:hover {
+    text-decoration: none;
+    color: RoyalBlue;
+  }
+a:active {
+    text-decoration: none;
+    color: RoyalBlue;
+  }
+input[type=submit][value=Register]{
+    color: GhostWhite;
+    background-color: CornflowerBlue;
+    border-radius: .25em;
+    border: none;
+}
+input[type=submit][name=Sign_In]{
+    color: GhostWhite;
+    background-color: #34b334;
+    border-radius: .25em;
+    border: none;
+}
+input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    margin-left : -25vw;
+}
+p {
+    font-size: 80%;
+    display: inline;
+    margin-left : 25vw
+}
