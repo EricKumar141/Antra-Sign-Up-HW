@@ -4,8 +4,10 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset=”UTF-8”>
+    <link rel=" stylesheet" href="styles.css">
+    <meta http-equiv=”X-US-Compatible” content=”IE=edge”>
+    <meta name="viewport” content="width=device-width, initial-scale=1.0”>
     <title>Sign Up Form</title>
 
 </head>
@@ -13,33 +15,36 @@
 <body>
 
     <h1>Sign Up</h1>
+    <div>
+        <form action="Authorization.php" method="post">
 
-    <form action="Authorization.php" method="post">
+            <input type="text" placeholder="First Name" id="fname" name="fname" required>
 
-        <input type="text" placeholder = "First Name" id="fname" name="fname" required>
+            <input type="text" placeholder="Last Name" id="lname" name="lname" required><br>
 
-        <input type="text" placeholder = "Last Name" id="lname" name="lname" required><br>
-        
-        <input type="tel" placeholder = "Mobile No." id="Mobile" name="Mobile" required><br>
+            <input type="tel" placeholder="Mobile No." id="Mobile" name="Mobile" required><br>
 
-        <input type="text" placeholder = "Email Address" id="Email" name="Email" required><br>
+            <input type="text" placeholder="Email Address" id="Email" name="Email" required><br>
 
-        <input type="password" placeholder = "Password" id="Password" name="Password" minlength="8" required>
+            <input type="password" placeholder="Password" id="Password" name="Password" minlength="8" required>
 
-        <input type="password" placeholder = "Confirm_Password" id="Confirm_Password" name="Confirm_Password" minlength="8" required><br><br>
+            <input type="password" placeholder="Confirm_Password" id="Confirm_Password" name="Confirm_Password"
+                minlength="8" required><br><br>
 
-        <input type="checkbox" id="I Agree" name="I Agree" value="I_Agree" required>
+            <input type="checkbox" id="I Agree" name="I Agree" value="I_Agree" required>
 
-        <label for="I_Agree"> <b>I Agree</b></label><br>
+            <label for="I_Agree"> <b>I Agree</b></label><br>
 
-        <p> By clicking <span>Register</span>, you agree to the <a href="./terms_and_conditions.html">Terms and Conditions</a>
-             set out by this site, including our Cookie Use.</p><br><br>
+            <p> By clicking <span>Register</span>, you agree to the <a href="./terms_and_conditions.html">Terms and
+                    Conditions</a>
+                set out by this site, including our Cookie Use.</p><br><br>
 
-        <input type="submit" name = "Register" value="Register">
+            <input type="submit" name="Register" value="Register">
 
-        <input type="submit" name = "Sign_In" value="Sign In">
+            <input type="submit" name="Sign_In" value="Sign In">
 
-      </form>
+        </form>
+    </div>
 
 </body>
 
