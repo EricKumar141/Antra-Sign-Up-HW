@@ -1,12 +1,7 @@
 body {
+    box-sizing: border-box;
     text-align: center;
-}
-input {
-    width: 16em;
-    height: 2em;
-    margin-right: 0.25em;
-    margin-left: 0.25em;
-    margin-bottom:0.3125em;
+    place-content: center;
 }
 input:hover{
     outline-color:#00BFFF;
@@ -14,11 +9,16 @@ input:hover{
 input:active{
     outline-color:#00BFFF;
 }
+input{
+    width:16em;
+    height: 2em;
+    margin-bottom:0.3125em;
+}
 input[id=Mobile]{
-    width: 33.4em;
+    width: 32.9em;
 }
 input[id=Email]{
-    width: 33.4em;
+    width: 32.9em;
 }
 span {
     color: GhostWhite;
